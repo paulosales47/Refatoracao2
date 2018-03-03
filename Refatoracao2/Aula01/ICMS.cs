@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Refatoracao2.Aula01
 {
-    class ICMS
+    public class ICMS : IImposto
     {
+        public double CalculaImposto(double valor)
+        {
+            return (valor * 0.03);
+        }
     }
 }

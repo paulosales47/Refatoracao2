@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Refatoracao2.Aula01
 {
-    interface IImposto
+    public interface IImposto
     {
+        double CalculaImposto(double valor);
     }
 }
