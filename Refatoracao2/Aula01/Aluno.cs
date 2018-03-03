@@ -15,5 +15,10 @@ namespace Refatoracao2.Aula01
         {
             get => new ReadOnlyCollection<string>(_cursos);
         }
+
+        public Aluno()
+        {
+            _cursos = new List<string>();
+        }
     }
 }
