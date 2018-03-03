@@ -8,9 +8,11 @@ namespace Refatoracao2.Aula01
 {
     public class ICMS : IImposto
     {
+        private readonly double ALIQUOTA_IMPOSTO_ICMS = 0.03;
+
         public double CalculaImposto(double valor)
         {
-            return (valor * 0.03);
+            return (valor * ALIQUOTA_IMPOSTO_ICMS);
         }
     }
 }
