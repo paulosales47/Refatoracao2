@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aula01\CalculadoraImposto.cs" />
+    <Compile Include="Aula01\ICMS.cs" />
+    <Compile Include="Aula01\IImposto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
